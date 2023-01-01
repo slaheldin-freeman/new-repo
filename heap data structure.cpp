@@ -1,14 +1,26 @@
 #include <iostream>
 using namespace std;
-struct gammal {
+struct node
+{
     int num;
-    gammal* left, * right;
-    gammal(int n) {
-        num = n;
-        left = NULL;
-        right = NULL;
-    }
+    node *left;
+    node *right:
 };
+class gammal
+{
+    private:
+     node *left;
+    node *right:
+    public:
+    gammal (int x)
+    {
+        int num=x;
+        left=NULL;
+        right=NULL;
+        
+    }
+    
+}
 int count(gammal* g) {
     if (g == NULL)
         return 0;
